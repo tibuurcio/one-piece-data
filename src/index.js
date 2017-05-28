@@ -3,7 +3,7 @@ var allCharacters = require('./all.json');
 var strawHatNames = require('./strawHatCrew.json');
 
 module.exports = {
-  allCharacters: all,
+  allCharacters: allCharacters,
   random: uniqueRandomArray(allCharacters),
   strawHatCrew: {
     all: strawHatNames,

@@ -4,7 +4,7 @@
   "description": "Get random names and other stuff from the Japanese anime One Piece",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/index.test.js -w"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,9 @@
   "homepage": "https://github.com/tibuurcio/one-piece-data#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
+  },
+  "devDependencies": {
+    "chai": "4.0.0",
+    "mocha": "3.4.2"
   }
 }
