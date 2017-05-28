@@ -1,0 +1,28 @@
+{
+  "name": "one-piece-data",
+  "version": "1.0.0",
+  "description": "Get random names and other stuff from the Japanese anime One Piece",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tibuurcio/one-piece-data.git"
+  },
+  "keywords": [
+    "random",
+    "onepiece",
+    "anime",
+    "japanese"
+  ],
+  "author": "Gabriel Tibúrcio <tibuurcio@gmail.com> (https://tibuurcio.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tibuurcio/one-piece-data/issues"
+  },
+  "homepage": "https://github.com/tibuurcio/one-piece-data#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
