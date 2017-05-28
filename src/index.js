@@ -1,6 +1,6 @@
-var uniqueRandomArray = require('unique-random-array');
-var allCharacters = require('./all.json');
-var strawHatNames = require('./strawHatCrew.json');
+import uniqueRandomArray  from 'unique-random-array';
+import allCharacters from './all.json';
+import strawHatNames from './strawHatCrew.json';
 
 module.exports = {
   allCharacters: allCharacters,
