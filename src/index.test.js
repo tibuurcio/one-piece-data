@@ -1,5 +1,5 @@
 var expect = require('chai').expect;
-var onePieceData = require('./index');
+var onePieceData = require('./index.js');
 
 describe('one-piece-data', function() {
   describe('allCharacters', function() {
