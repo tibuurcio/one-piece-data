@@ -4,6 +4,8 @@
   "description": "Get random names and other stuff from the Japanese anime One Piece",
   "main": "dist/index.js",
   "scripts": {
+    "precommit": "npm test",
+    "prepush": "npm test",
     "commit": "git-cz",
     "watch:test": "npm run test -- -w",
     "test": "mocha src/index.test.js --compilers js:babel-register",
@@ -46,18 +48,13 @@
     "chai": "4.0.0",
     "commitizen": "2.9.6",
     "cz-conventional-changelog": "2.0.0",
-    "ghooks": "2.0.0",
+    "husky": "0.13.4",
     "json-loader": "0.5.4",
     "mocha": "3.4.2",
     "npm-run-all": "4.0.2",
     "rimraf": "2.6.1",
     "semantic-release": "^6.3.6",
     "webpack": "2.6.1"
-  },
-  "config": {
-    "ghooks": {
-      "pre-commit": "npm run test"
-    }
   },
   "babel": {
     "presets": [
