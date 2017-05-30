@@ -14,7 +14,7 @@
     "build:umd": "webpack --output-filename index.umd.js",
     "build:umd.min": "webpack --output-filename index.umd.min.js -p",
     "build": "npm-run-all --parallel build:*",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "npm run build && semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
