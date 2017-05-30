@@ -18,6 +18,14 @@ describe('one-piece-data', function() {
       var randomItem = onePieceData.random();
       expect(onePieceData.allCharacters).to.include(randomItem);
     });
+
+    it('should return an array of random items if passed a number', function() {
+      var randomItems = onePieceData.random(3);
+      expect(randomItems).to.have.length(3);
+      randomItems.forEach(function(item) {
+        expect(onePieceData.allCharacters).to.include(item);
+      });
+    });
   });
 
   describe('strawHatCrew', function() {
