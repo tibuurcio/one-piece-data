@@ -9,13 +9,13 @@ Get names from the One Piece anime. Data is from [One Piece Wikia](http://onepie
 ## Install
 
 ```
-$ npm install --save one-piece-date
+$ npm install --save one-piece-data
 ```
 
 ## Usage
 
 ```js
-const OnePiece = require('one-piece-date');
+const OnePiece = require('one-piece-data');
 
 OnePiece.all; //Array with the names of every One Piece character that has ever appeared in or been mentioned in the manga and has been named.
 
